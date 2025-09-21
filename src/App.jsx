@@ -15,10 +15,10 @@ function App() {
     //   <About></About>
     //   <Home></Home>
     //   <Careers></Careers>
-    <Contact></Contact>
+    // <Contact></Contact>
     // </div> 
     // <Display></Display>
-  //  <Objects></Objects>
+   <Objects></Objects>
   )
 }
 
