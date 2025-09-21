@@ -5,6 +5,7 @@ import { Careers } from './Components/home'
 import About from './Components/about'
 // import Display from './Components/rendering'
 import Objects from './Components/ObjectRendering'
+import { Contact } from './Components/home'
 function App() {
  
 
@@ -14,9 +15,10 @@ function App() {
     //   <About></About>
     //   <Home></Home>
     //   <Careers></Careers>
-    // </div>
+    <Contact></Contact>
+    // </div> 
     // <Display></Display>
-   <Objects></Objects>
+  //  <Objects></Objects>
   )
 }
 
