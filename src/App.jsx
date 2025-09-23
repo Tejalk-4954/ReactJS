@@ -7,6 +7,7 @@ import About from './Components/about'
 import Objects from './Components/ObjectRendering'
 import { Contact } from './Components/home'
 import { Consume } from './Components/props1'
+import { Demo } from './Components/props2'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     id:101
   }
 
+ let{names,email,id}=Student;
   console.log(Student);
   
 
@@ -31,7 +33,9 @@ function App() {
     // <Display></Display>
   //  <Objects></Objects>
 
-  <Consume level={Student}></Consume>
+  // <Consume level={Student}></Consume>
+
+  <Demo ></Demo>
   )
 }
 
