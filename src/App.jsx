@@ -35,7 +35,7 @@ function App() {
 
   // <Consume level={Student}></Consume>
 
-  <Demo ></Demo>
+  <Demo {...Student}></Demo>
   )
 }
 
