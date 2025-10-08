@@ -6,7 +6,7 @@ function PostData()
     let student={
 
         userId:100,
-        title:"hey"
+        title:"JavaScript"
     }
 
     let[addinngdata,setaddingdata]=useState(true);
@@ -30,7 +30,7 @@ function PostData()
             console.log(e);
             
         })
-         }, 4000);
+         }, 3000);
     },[])
 
     if(addinngdata)
@@ -40,6 +40,7 @@ function PostData()
     <h1>Data Added...</h1>
 
     <h2>{student.userId}</h2>
+    <h2>{student.title}</h2>
     </>)
 }
 
